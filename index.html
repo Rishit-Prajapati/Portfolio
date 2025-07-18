@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title>portfolio website</title>
+        <link rel="stylesheet" href="port.css">
+        <script src="https://kit.fontawesome.com/be8af85fda.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="image.png " height="50px" width="100px" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">service</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closememenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Computer Engineer</p>
+                    <h1>Hi,I'm <span>Rishit</span><br>Prajapati From Kanpur</h1>
+                </div>
+               
+            </div>
+
+        </div>
+        <!-------about------->
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="b2.jpg" height="50%" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Rishit Prajapati.I am BTech student of Maharana Pratap Engineering college.
+                        <b style="color: aqua;">Career Objective:</b>Want to work in professional environment where I am able to give best of mine and can enhance my skills 
+                        according to latest technologies. Currently exploring about webdevelopment and Machine Learning. 
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>full Stack development</li>
+                            <li><span>PYTHON</span><br>python(Basic)certificate from HackerRank</li>
+                            <li><span>Web development</span><br>full Stack development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>I currently  exploring my skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-24</span><br>BTech from Maharana Pratap Engineering Collage</li>
+                            <li><span>2022-23</span><br>Intermediate from Welfare Mission International School<br>Percentage:-89%</li>
+                            <li><span>2020-21</span><br>High School from Welfare Mission International School<br>Percentage:-90%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <!-------services-->
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>design logo | portfolio website | </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-adn"></i>
+                    <h2>Software Language</h2>
+                    <p>C  | C++ | PYTHON | HTML | CSS |JavaScript</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-hackerrank"></i>
+                    <h2>Hobbies</h2>
+                    <p>Listening Music | Drawing And Painting </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <!----------------PORTFOLIO------------->
+       <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="b5.webp">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, dicta veritatis.</P>
+                            <a href="#">hello</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="b5.webp">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, dicta veritatis.
+                                 Nesciunt tempore quisquam modi obcaecati quo, voluptas enim quos animi similique.
+                                 Cumque repellendus itaque iure aut. Incidunt, quas veniam.</P>
+                            <a href="#"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="b5.webp">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, dicta veritatis.
+                                 Nesciunt tempore quisquam modi obcaecati quo, voluptas enim quos animi similique.
+                                 Cumque repellendus itaque iure aut. Incidunt, quas veniam.</P>
+                            <a href="#"><i class="fa-solid fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">see more</a>
+            </div>
+       </div>
+
+       <!-----------------CONTACT--------------------------->
+
+       <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>prajapatirishit61@gmail.com</p>
+                        <p><i class="fas fa-call"></i>8303801424</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/rishit-prajapati-130b6b297"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <a href="RISHIT PRAJAPATI RESUME.docx" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="your name" required>
+                            <input type="email" name="email" placeholder="your email" required>
+                            <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright Rishit. made with<i class="fas fa-heart"></i> easy portfolio</p>
+            </div>
+       </div>
+
+       <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+       </script>
+
+       <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+       </script>
+    </body>
+</html>
